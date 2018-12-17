@@ -1,0 +1,25 @@
+{
+  "name": "auto-update-cloudflare-ip",
+  "version": "1.0.0",
+  "description": "For keeping a Cloudflare DNS record up to date when the web server has a dynamic IP address which can change.",
+  "main": "announce.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmacpro/auto-update-cloudflare-ip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmacpro/auto-update-cloudflare-ip/issues"
+  },
+  "homepage": "https://github.com/fmacpro/auto-update-cloudflare-ip#readme",
+  "dependencies": {
+    "cloudflare": "^1.0.5",
+    "external-ip": "^0.2.4",
+    "node-schedule": "^1.2.0",
+    "slack-notify": "^0.1.7"
+  }
+}
